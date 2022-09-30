@@ -1,0 +1,173 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-size: 18px;
+  background-color: hsl(27deg, 66%, 92%);
+  font-family: "DM Sans", sans-serif;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+header {
+  background-color: hsl(10deg, 79%, 65%);
+  display: flex;
+  border-radius: 0.8rem;
+  padding: 1.5rem;
+  justify-content: space-between;
+  align-items: center;
+  color: hsl(33deg, 100%, 98%);
+  margin: 1rem 0;
+}
+header h1 {
+  font-size: 26px;
+  padding-top: 0.5rem;
+}
+
+main {
+  background-color: hsl(33deg, 100%, 98%);
+  border-radius: 0.8rem;
+  padding: 1.5rem;
+}
+main h2 {
+  color: hsl(25deg, 47%, 15%);
+}
+
+.data {
+  display: flex;
+  padding: 1rem 0;
+  border-bottom: 1px solid hsl(27deg, 66%, 92%);
+}
+
+.day__container {
+  width: 2rem;
+  margin: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  cursor: pointer;
+}
+.day__container p {
+  color: hsl(28deg, 10%, 53%);
+}
+.day__container:hover .mon__block {
+  opacity: 0.7;
+}
+.day__container:hover .tue__block {
+  opacity: 0.7;
+}
+.day__container:hover .wed__block {
+  opacity: 0.7;
+}
+.day__container:hover .thu__block {
+  opacity: 0.7;
+}
+.day__container:hover .fri__block {
+  opacity: 0.7;
+}
+.day__container:hover .sat__block {
+  opacity: 0.7;
+}
+.day__container:hover .sun__block {
+  opacity: 0.7;
+}
+
+.mon__block {
+  width: 100%;
+  border-radius: 0.2rem;
+  background-color: hsl(10deg, 79%, 65%);
+  height: 30px;
+}
+
+.tue__block {
+  width: 100%;
+  border-radius: 0.2rem;
+  background-color: hsl(10deg, 79%, 65%);
+  height: 60px;
+}
+
+.wed__block {
+  width: 100%;
+  border-radius: 0.2rem;
+  background-color: hsl(10deg, 79%, 65%);
+  height: 80px;
+  background-color: hsl(186deg, 34%, 60%);
+}
+
+.thu__block {
+  width: 100%;
+  border-radius: 0.2rem;
+  background-color: hsl(10deg, 79%, 65%);
+  height: 50px;
+}
+
+.fri__block {
+  width: 100%;
+  border-radius: 0.2rem;
+  background-color: hsl(10deg, 79%, 65%);
+  height: 40px;
+}
+
+.sat__block {
+  width: 100%;
+  border-radius: 0.2rem;
+  background-color: hsl(10deg, 79%, 65%);
+  height: 70px;
+}
+
+.sun__block {
+  width: 100%;
+  border-radius: 0.2rem;
+  background-color: hsl(10deg, 79%, 65%);
+  height: 45px;
+}
+
+.day__data {
+  background-color: hsl(25deg, 47%, 15%);
+  color: hsl(33deg, 100%, 98%);
+  padding: 0.5rem;
+  border-radius: 0.3rem;
+  margin-bottom: 0.5rem;
+  opacity: 0.3;
+}
+
+.main__bottom {
+  padding: 2rem 0 1rem 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.main__bottom__right {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+.main__bottom__right small {
+  color: hsl(28deg, 10%, 53%);
+}
+.main__bottom__right p {
+  display: block;
+  color: hsl(25deg, 47%, 15%);
+  font-weight: 700;
+}
+
+.main__bottom__left {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+.main__bottom__left small {
+  color: hsl(28deg, 10%, 53%);
+}
+.main__bottom__left h2 {
+  font-size: 40px;
+}
+
+/*# sourceMappingURL=index.css.map */
